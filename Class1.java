@@ -18,8 +18,7 @@ public class Class1 {
 //        System.out.println(number1);
 
 
-
-
+       char  abc = 'G';
         System.out.println(a);
         System.out.println(number);
         System.out.println(name);
