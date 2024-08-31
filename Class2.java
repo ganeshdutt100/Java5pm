@@ -21,12 +21,27 @@ public class Class2 {
 //        System.out.println(a<=b);
 //        System.out.println(a != b);
 
-   boolean a = true;
-   boolean b = false;
+//   boolean a = true;
+//   boolean b = false;
+//
+//        System.out.println(a && b);
+//        System.out.println(a  || b);
+//        System.out.println( !b);
 
-        System.out.println(a && b);
-        System.out.println(a  || b);
-        System.out.println( !b);
+
+         int a = 20;
+         int b = 5;
+//             a = b+ a;
+//              a += 5;
+              a -= 5;
+
+
+
+//              a = a+5; a+=5;
+//              a = a-5; a-=5;
+//              a = a*5; a*=5;
+//              a = a/5; a/=5;
+        System.out.println(a);
 
 
 
