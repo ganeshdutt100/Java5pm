@@ -11,15 +11,24 @@ public class Class2 {
 //        System.out.println(  sum);
 //        System.out.print(c);
 
-        int a = 10;
-        int b = 20;
+//        int a = 10;
+//        int b = 20;
+//
+//        System.out.println(a==b);
+//        System.out.println(a>b);
+//        System.out.println(a<b);
+//        System.out.println(a>=b);
+//        System.out.println(a<=b);
+//        System.out.println(a != b);
 
-        System.out.println(a==b);
-        System.out.println(a>b);
-        System.out.println(a<b);
-        System.out.println(a>=b);
-        System.out.println(a<=b);
-        System.out.println(a != b);
+   boolean a = true;
+   boolean b = false;
+
+        System.out.println(a && b);
+        System.out.println(a  || b);
+        System.out.println( !b);
+
+
 
     }
 }
