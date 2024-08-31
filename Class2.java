@@ -29,11 +29,11 @@ public class Class2 {
 //        System.out.println( !b);
 
 
-         int a = 20;
-         int b = 5;
+//         int a = 20;
+//         int b = 5;
 //             a = b+ a;
 //              a += 5;
-              a -= 5;
+//              a -= 5;
 
 
 
@@ -41,9 +41,14 @@ public class Class2 {
 //              a = a-5; a-=5;
 //              a = a*5; a*=5;
 //              a = a/5; a/=5;
-        System.out.println(a);
-
-
+//        System.out.println(a);  // 15
+//        a++;
+//        System.out.println(a);
+//        (condition) ? first : second
+         int a = 80;
+         int b = 35;
+         int output = (a >= b ) ? a : b;
+        System.out.println(output);
 
     }
 }
