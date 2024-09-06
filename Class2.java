@@ -1,7 +1,18 @@
 package CoreJava;
 
+import java.util.Scanner;
+
 public class Class2 {
     public static void main(String[] args) {
+
+        Scanner Ganesh = new Scanner(System.in);
+        System.out.println("Enter your first value :  ");
+        int a = Ganesh.nextInt();
+
+        System.out.println("Enter your Second value :  ");
+        int b = Ganesh.nextInt();
+
+        System.out.println( a+b );
 
 
 //        int a = 20;
@@ -45,10 +56,10 @@ public class Class2 {
 //        a++;
 //        System.out.println(a);
 //        (condition) ? first : second
-         int a = 80;
-         int b = 35;
-         int output = (a >= b ) ? a : b;
-        System.out.println(output);
+//         int a = 80;
+//         int b = 35;
+//         int output = (a >= b ) ? a : b;
+//        System.out.println(output);
 
     }
 }
