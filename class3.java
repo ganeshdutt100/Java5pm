@@ -1,12 +1,16 @@
 package CoreJava;
 
+import java.util.Scanner;
+
 public class class3 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 //        String a = "hello";
 //
 //        System.out.println( a + " world");
-        int a = 20;
-        if( a == 20){
+        System.out.println("Enter your value");
+        int a = sc.nextInt();
+        if( a <= 20){
             System.out.println("Data is Matched");
         }
         else{
