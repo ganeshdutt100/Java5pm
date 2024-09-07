@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class class4 {
     public static void main(String[] args) {
-
+Scanner scanner = new Scanner(System.in);
 
 //        String output  = "out";
 //
@@ -49,25 +49,51 @@ public class class4 {
 //        else{
 //            System.out.println("Good Night💤💤");
 //        }
+//
+//        int a = 9;
+//        float b = 10.5f;
+//
+//
+//        if(a  == 10){
+//            System.out.println(a);
+//            if(b == 10.5){
+//                System.out.println(b);
+//            }
+//            else{
+//                System.out.println("data not matching..");
+//            }
+//        }
+//        else{
+//            System.out.println("first data is  not matching..");
+//        }
 
-        int a = 9;
-        float b = 10.5f;
+
+//        System.out.println("Enter your number ,  1,2,3");
 
 
-        if(a  == 10){
-            System.out.println(a);
-            if(b == 10.5){
-                System.out.println(b);
-            }
-            else{
-                System.out.println("data not matching..");
-            }
-        }
-        else{
-            System.out.println("first data is  not matching..");
-        }
+//        int a = scanner.nextInt();
+//
+
+//        switch (a){
+//            case 1:
+//                System.out.println("one");
+//                break;
+//            case 2:
+//                System.out.println("two");
+//                break;
+//            case 3:
+//                System.out.println("three");
+//                break;
+//            default:
+//                System.out.println("Invalid");
+//        }
 
 
 
     }
 }
+//   for(int i = 0; i <= 10;  i++) {
+//            if(i % 2 !=0){
+//                System.out.println("Odd number" +  i);
+//            }
+//        }
