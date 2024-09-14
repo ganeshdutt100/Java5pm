@@ -8,14 +8,15 @@ public class class7 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Loop");
-//        for(int i =1; i <=20; i++){
-//            System.out.print(i + ",");
-//        }
-        int a = 10;
-        while(true){
-            System.out.println(a);
-            a++;
+      int table = sc.nextInt();
+        for(int i =1; i <=10; i++){
+            System.out.println(table  +  " * "+ i + " = "+  i * table);
         }
+//        int a = 10;
+//        while(a <=10){
+//            System.out.println(a);
+//            a++;
+//        }
 
 
 
