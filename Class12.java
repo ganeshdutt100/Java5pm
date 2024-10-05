@@ -20,7 +20,14 @@ public class Class12 {
 //        System.out.println(sum2);
 //
 //        System.out.println(Sum(40, 70));
-      Table(15);
+//      Table(15);
+
+      for(char i = 'a'; i <= 'z'; i++){
+          System.out.println(i);
+      }
+      for(char i = 'z'; i >= 'a'; i--){
+          System.out.print( i +  " : ") ;
+      }
     }
 //-------------------------------------------------------------
     public static void Table(int a){
