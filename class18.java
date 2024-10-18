@@ -10,6 +10,7 @@ public class class18 {
         int randomNumber = random.nextInt(5)+1;
         int userGuess = 0;
         int attempt = 0;
+        int maxAttempt = 3;
 
         System.out.println("Welcome to the Number Guessing Game!");
         System.out.println("I'm thinking of a number between 1 and 5.");
@@ -30,6 +31,12 @@ public class class18 {
                 System.out.println("It took you " + attempt + " attempts.");
                 break;
             }
+            if (attempt == maxAttempt){
+                System.out.println("You've reached the maximum number of attempts. The correct number was " + randomNumber);
+                break;
+            }
+
+
         }
 
 
